@@ -1,0 +1,186 @@
+body{
+    font-family: "plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    background-color: #F4F9FF !important;
+}
+.container{
+    flex:1;
+}
+.navbar{
+    height: 5rem;
+    background-color: #F4F9FF;
+}
+.fa-route{
+    font-size: 3rem;
+    color:rgb(240, 0, 100) ;
+    
+
+}
+.nav-link{
+    color :#222222 !important;
+
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+.f-info{
+    
+   height: 8rem;
+   background-color : rgb(211, 211, 211,0.5);
+display: flex;
+flex-wrap: wrap;
+justify-content:  center;  
+align-items: space-evenly;
+text-align: center; 
+}
+
+
+
+
+
+
+.f-info-socials{
+    width: 100%;
+    font-size: 1.2 rem;
+    margin-right: 1 rem;
+    text-align: center;
+    justify-content: center;
+
+}
+.f-info-socials i{
+   
+    margin-right: 1 rem;
+    font-size :1.2 rem;
+    justify-content: center;
+
+}
+.f-info-links,.f-info-socials,.f-info-brand{
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+    justify-content: center;  
+}
+.listing-card{
+    border:none !important;
+    margin-bottom : 2rem;
+
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0rem !important;
+    
+}
+.card-text p{
+    font-weight: 400;
+
+
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.18;
+    background-color: white;
+}
+/*new page*/ 
+
+.add-btn{
+    background-color: #FFCF00 !important;
+    border: none !important;
+
+}
+.edit-btn{
+     background-color: #FF3483!important;
+    border: none !important;
+
+}
+/* Show page     */
+.show-img{
+    height: 30vh;
+    
+
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#map{
+    height: 450px;
+    width:85vh;
+}
+
+ #filters{
+            display: flex !important;
+           flex-wrap: wrap !important;
+           align-items: center;
+           
+        }
+         .filter{
+            text-align: center;
+            margin-right: 2rem;
+            margin-top :1rem;
+            opacity: 0.7;
+        }
+        .filter:hover{
+            opacity: 1;
+            cursor:pointer;
+        }
+        .filter p {
+            font-size: 1rem;
+
+        }
+        .tax-info{
+            display:none;
+
+        }
+        .tax-toggle{
+            border:1px solid black;
+            border-radius: 1rem;
+            height: 3rem;
+            padding: 1rem;
+            margin-left: 1.2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-search{
+             background-color:rgb(240, 0, 100) !important;
+            color:white !important;
+            border-radius: 25px !important;
+            padding: 0 1rem 0 1rem !important;
+        }
+        .btn-search i{
+            display: inline;
+            margin-right: 0.5rem;
+
+
+        }
+        .search-input{
+            border-radius: 25px !important;
+            padding: 0.5rem 9rem 0.5rem 9rem !important;
+
+
+        }
